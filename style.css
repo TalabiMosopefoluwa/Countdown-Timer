@@ -39,6 +39,7 @@ section {
 
 img{
     width: 500px;
+    border: 2px solid white;
 }
 p,h3{
     font-family: sans-serif;
