@@ -50,6 +50,7 @@
     }
     img{
         width: 350px;
+        height: 350px;
     }
     #new{
         font-size: 20px;
@@ -70,7 +71,7 @@
     }
 
     #maintimediv{
-        width: 67vw;
+        width: 85vw;
         margin-top: 20px;
         margin-left: 19px;
         
