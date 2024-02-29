@@ -1,0 +1,91 @@
+/* Below 832px (Tablets) */
+@media (max-width: 52em) {
+    
+}
+
+
+/* BELOW 600PX (Phones) */
+@media (max-width: 37em) {
+    #maindiv{
+        display: block;
+        width: 100vw;
+        height: 130vh;
+    }
+    #div1{
+        width: 380px;
+        position: relative;
+        left: 6px;
+
+
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 10%);
+
+
+
+
+        top: 20px;
+        height: 280px;
+        background-color: rgb(12, 12, 12);
+    }
+    #div2{
+        width: 370px;
+        position: relative;
+        left: 6px;
+
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 87%);
+
+
+
+        top: 20px;
+        height: 350px;
+        background-color: rgb(12, 12, 12);
+
+    }
+    img{
+        width: 350px;
+    }
+    #new{
+        font-size: 20px;
+        margin-left: 19px;
+    }
+    #end{
+        font-size: 13px;
+        word-spacing: 2px;
+        letter-spacing: 4px;
+        margin-top: 20px;
+        margin-left: 19px;
+    }
+    #lorem{
+        font-size: 13px;
+        line-height: 22px;
+        margin-top: 30px;
+        margin-left: 19px;
+    }
+
+    #maintimediv{
+        width: 67vw;
+        margin-top: 20px;
+        margin-left: 19px;
+        
+    }
+
+    #day,#hour,#mins,#sec{
+        width: 70px;
+        height: 80px;
+    }
+
+    #daynumber, #hrnumber, #minnumber, #secnumber{
+        font-size: 34px;
+    }
+
+    #daytxt, #hrtxt, #mintxt, #sectxt{
+        font-size: 12px;
+    }
+}
